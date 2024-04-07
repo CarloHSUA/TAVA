@@ -1,0 +1,1 @@
+## Métodos para reconocimiento de emociones

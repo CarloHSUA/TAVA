@@ -1,0 +1,1 @@
+## Métodos para monitorización de los signos vitales
