@@ -1,6 +1,3 @@
 ## Datasets empleados
 
-- Executa el siguiente comando para descargar el dataset FER 2013: 
-```
-python download_fer2013.py
-```
+- Carpeta en la que se descargan los datasets a partir de los scripts de la carpeta scripts_data
