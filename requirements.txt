@@ -1,2 +1,8 @@
 vit-pytorch
 gdown
+cv2
+torch
+torchvision
+torchaudio
+sickit-learn
+pandas
