@@ -6,3 +6,4 @@ torchvision
 torchaudio
 sickit-learn
 pandas
+xgboost

@@ -4,6 +4,7 @@ import numpy as np
 from sklearn.linear_model import LogisticRegression
 import joblib
 import pandas as pd
+import xgboost as xgb
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 mp_pose = mp.solutions.pose
@@ -36,7 +37,7 @@ feature_names = ['x_nose', 'y_nose', 'z_nose', 'x_left_eye_inner', 'y_left_eye_i
        'y_left_foot_index', 'z_left_foot_index', 'x_right_foot_index',
        'y_right_foot_index', 'z_right_foot_index']
 
-modelo_cargado = joblib.load('log_reg.pkl')
+modelo_cargado = joblib.load('xgb.pkl')
 # For webcam input:
 cap = cv2.VideoCapture(0)
 with mp_pose.Pose(
@@ -76,5 +77,5 @@ with mp_pose.Pose(
     # Flip the image horizontally for a selfie-view display.
     cv2.imshow('MediaPipe Pose', cv2.flip(image, 1))
     if cv2.waitKey(5) & 0xFF == ord('q'):
-      break
+        break
 cap.release()
