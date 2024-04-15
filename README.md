@@ -46,6 +46,5 @@ python pose.py video
 - `app/` : Contiene dos aplicaciones, *app.py* para el reconocimiento de emociones en tiempo real y *pose.py* para el reconocimiento de actividades físicas en tiempo real.
 - `datasets/` : Carpeta donde se almacenan los datasets generados.
 - `emotion_recognition/` : Contiene un *notebook* descargado de Kaggle con la carga de dos datasets (FER-2013 y AffectNet) con su correspondiente predicción y resultados.
-- `exercise_recognition/` : Contiene un *notebook* descargado de Kaggle con los diferentes algoritmos de ML aplicados a los datos generados de MediaPipe.
 - `scripts_data/` : Contiene fichero que descarga los conjuntos de datos y los almacena en la carpeta *datasets/*.
 - `vital_signs/` : 
