@@ -22,13 +22,6 @@ cd ./app
 python app.py
 ```
 
-## Reconocimiento de emociones por voz.
-```
-Cambiar e introducir el directorio y la aplicación de voz ......
-cd ./app
-python pose.py
-```
-
 ## Reconocimiento de actividades físicas.
 ```
 cd ./app
@@ -47,4 +40,3 @@ python pose.py video
 - `datasets/` : Carpeta donde se almacenan los datasets generados.
 - `emotion_recognition/` : Contiene un *notebook* descargado de Kaggle con la carga de dos datasets (FER-2013 y AffectNet) con su correspondiente predicción y resultados.
 - `scripts_data/` : Contiene fichero que descarga los conjuntos de datos y los almacena en la carpeta *datasets/*.
-- `vital_signs/` : 
